@@ -1,0 +1,25 @@
+{
+  "name": "nodepg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brylledesigns/nodepg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brylledesigns/nodepg/issues"
+  },
+  "homepage": "https://github.com/brylledesigns/nodepg#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^7.18.1"
+  }
+}

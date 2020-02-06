@@ -10,7 +10,7 @@
 
     CLI command: npm install --save pg
 
-### Create an index.js file in youor reposityory
+### Create an index.js file in your reposityory
     > Create a variable Pool that requires to integrate with the Postgre
 
         const { Pool } = require('pg')
@@ -34,3 +34,23 @@
             }
             console.log(results.rows)
         })
+
+### ERRORS!
+    Error: Cannot find module '.env'
+    
+        Solution: Never forget to install the module of dotenv in you repository
+
+        npm install --save dotenv
+
+    Error: Column "Alex" doesn't exist
+    
+        Solution: Change the double qoutes into single qoute
+
+    Error: syntax error at or near "AUTO_INCREMENT"
+
+        Solution: Just remove the AUTO_INCREMENT because we are in a Postgre environment
+
+    Error: type "tinyint" does not exist
+
+        Solution: There is no tinyint data type in postgre. Replace it with int
+
